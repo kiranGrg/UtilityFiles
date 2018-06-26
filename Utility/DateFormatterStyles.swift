@@ -8,6 +8,8 @@
 
 import Foundation
 
+import UIKit
+
 class Utility: NSObject
 {
     class func validateWhiteSpace(_ str: String) -> Bool
