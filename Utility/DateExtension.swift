@@ -8,7 +8,15 @@
 
 import Foundation
 
+
+
+
 extension Date {
+    
+    var aWeekAgo: Date {
+        return Calendar.current.date(byAdding: .weekOfMonth, value: -1, to: self)!
+    }
+    
     var startOfWeek: Date? {
         let gregorian = Calendar(identifier: .gregorian)
         guard let sunday = gregorian.date(from: gregorian.dateComponents([.yearForWeekOfYear, .weekOfYear], from: self)) else { return nil }

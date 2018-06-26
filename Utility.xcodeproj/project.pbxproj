@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B32EFAF920E269AB006EEBD8 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32EFAF820E269AB006EEBD8 /* DateExtension.swift */; };
+		B32EFAFB20E26EBA006EEBD8 /* DateFormatterStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32EFAFA20E26EBA006EEBD8 /* DateFormatterStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B32EFAF720E269AB006EEBD8 /* Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32EFAF820E269AB006EEBD8 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		B32EFAFA20E26EBA006EEBD8 /* DateFormatterStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				B32EFAF820E269AB006EEBD8 /* DateExtension.swift */,
+				B32EFAFA20E26EBA006EEBD8 /* DateFormatterStyles.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -111,6 +114,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32EFAFB20E26EBA006EEBD8 /* DateFormatterStyles.swift in Sources */,
 				B32EFAF920E269AB006EEBD8 /* DateExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
